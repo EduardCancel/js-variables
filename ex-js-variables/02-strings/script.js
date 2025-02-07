@@ -19,6 +19,8 @@ console.log(number, text, booleano);
 const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // NON MODIFICARE QUESTA RIGA
 const firstName = 'Jane'; // NON MODIFICARE QUESTA RIGA
 const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
+const full_name = firstName + " " + lastName;
+console.log(full_name);
 
 const fullName = null;
 console.log(fullName); // Output: "Jane Smith"
